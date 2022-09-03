@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+}
+.brands-con {
+  display: flex;
+  gap: 5rem;
+  margin: 5rem;
+}
+
+/*top section*/
+
+.hero {
+  background-image: url("../images/Mask group.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  height: 600px;
+}
+
+.header-con {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d7d8d2;
+  height: 115px;
+  padding: 0 1vw;
+}
+.b-menu {
+  display: none;
+}
+.menu-icon {
+  font-size: 1.8rem;
+  color: #494949;
+}
+
+.menu-icon-active li {
+  display: flex;
+  font-size: 2.99vw;
+}
+.menu-icon-active a {
+  text-decoration: none;
+  color: black;
+}
+.menu-icon-inactive {
+  display: none;
+}
+.cell-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.icon {
+  display: inline-block;
+}
+.title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: x-large;
+  margin: 0;
+}
+
+.icon-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.search {
+  height: 32px;
+  background: #f6f6f3;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 13px;
+  width: 200px;
+  border: none;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-list-active {
+  display: none;
+  padding: 1rem;
+}
+.nav-list li {
+  display: inline-block;
+  padding: 0.9rem;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+.nav-list a:hover {
+  background-color: #4949498f;
+  border-radius: 5px;
+  padding: 0.2rem;
+  transition: 0.1s ease-in-out;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+}
+.takeMe-btn {
+  height: 32px;
+  background: #494949;
+  border-radius: 10px;
+  padding: 5px;
+  color: #f6f6f3;
+
+  width: 160px;
+  border: none;
+}
+.headline {
+  position: absolute;
+  left: 110px;
+  top: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.headline p {
+  color: #f6f6f3;
+}
+
+/*images/second section*/
+.secondSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.images-con {
+  display: visible;
+  transform: translateY(-260px);
+}
+.arrow {
+  color: #494949;
+  font-size: 2rem;
+}
+.tabs-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  padding: 20px 0;
+}
+.tab {
+  width: 100px;
+  height: 30px;
+}
+
+.active-tab {
+  background-image: url("../images/mark.png");
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+}
+.tab p {
+  cursor: pointer;
+}
+
+.imgArray-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgArray-con img {
+  width: 200px;
+  height: 300px;
+  margin: 0.8rem;
+  border-radius: 15px;
+}
+.img-arr {
+  display: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-img {
+  display: none;
+  width: 200px;
+  height: 300px;
+}
+.mobile-img img {
+  width: 150px;
+  height: 150px;
+}
+.see-more-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see-more {
+  border: 1px solid black;
+  width: -moz-fit-content;
+  width: fit-content;
+  /* padding: 5px; */
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 1rem;
+}
+.see-more-con-xl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands-con {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.adSpace1 {
+  display: flex;
+  background-color: #d7d8d2;
+  transform: translateY(-130px);
+  /* flex-wrap: nowrap; */
+  justify-content: flex-end;
+  gap: 15%;
+}
+.ad1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* padding-left: 14rem; */
+  align-items: center;
+  justify-content: center;
+}
+.adSpace1 img {
+  width: 50%;
+}
+
+.adSpace2 img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin: 4rem;
+}
+.adSpace2 {
+  display: flex;
+  align-items: center;
+  margin-left: 13%;
+  background-color: #d7d8d2;
+  /* height: 550px; */
+  border-radius: 300px 0 0 300px;
+}
+
+.footer {
+  display: flex;
+
+  justify-content: space-evenly;
+  background-color: #d7d8d2;
+  transform: translateY(150px);
+  padding: 50px 0;
+}
+/* switch component styles*/
+
+/*indicator*/
+
+.indicator-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+.ForthSec {
+  transform: translateY(100px);
+}
+.random-product {
+  margin: 50px 0;
+}
+.footer-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .headline {
+    top: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headline {
+    top: 7%;
+  }
+  .imgArray-con img {
+    width: 150px;
+    height: 200px;
+    margin: 0.8rem;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-list-active {
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+  .cell-con {
+    display: none;
+  }
+  .menu-icon-active {
+    position: absolute;
+    z-index: 10;
+    width: 35vw;
+    height: 25vh;
+    background-color: #d7d8d2;
+  }
+  .b-menu {
+    display: block;
+  }
+  .hero {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    background-image: url("http://localhost:3000/static/media/Mask%20group.8168d11c3c432c368937.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+  }
+  .headline {
+    position: unset;
+  }
+
+  .images-con {
+    transform: translateY(-90px);
+  }
+
+  .imgArray-con {
+    flex-direction: column;
+  }
+  .tabs-con {
+    display: none;
+  }
+  .img-arr {
+    display: none;
+  }
+  .mobile-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .see-more-con-xl {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow {
+    display: none;
+  }
+  .adSpace1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    transform: none;
+  }
+  .adSpace1 img {
+    width: 100%;
+  }
+  .ad1 {
+    padding: 4rem;
+  }
+  .adSpace2 {
+    flex-direction: column;
+    margin-left: 0;
+    border-radius: 0;
+    background-color: #f6f6f3;
+  }
+  .ad2 {
+    padding-bottom: 2rem;
+  }
+  .third-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .ForthSec {
+    display: none;
+  }
+}
+
+/*navbar practice*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 1.3rem;
+}
+.sidebar-list {
+  display: none;
+}
+.menu-on {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: flex-start;
+  width: 30%;
+  top: 0;
+}
+.menu-off {
+  display: none;
+}
+.sidebar li {
+  display: block;
+}
+.sidebar ul {
+  padding: 0;
+}
+.close {
+  padding-top: 0.8rem;
+  display: none;
+}
+@media (max-width: 576px) {
+  .nav-list {
+    display: none;
+  }
+  .close {
+    display: block;
+  }
+  .sidebar-list {
+    display: block;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
