@@ -29,7 +29,6 @@ export function Images() {
 
   function toggleTab(index) {
     setToggleState(index);
-    console.log(index);
   }
 
   const [arr, setArr] = react.useState([
@@ -57,18 +56,17 @@ export function Images() {
     setArr((prevState) => {
       return [...prevState];
     });
-    console.log(arr[x]);
+
     while (x < arr.length - 1) {
       x++;
     }
   }
-  console.log(x);
 
   function sub() {
     setArr((prevState) => {
       return [...prevState];
     });
-    console.log(arr[x]);
+
     while (x > 0) {
       x--;
     }
@@ -102,8 +100,8 @@ export function Images() {
           <FaAngleLeft className="arrow" onClick={sub}></FaAngleLeft>
         </div>
         <div className="img-arr">
-          {arr.map((item) => (
-            <img src={item[x]} />
+          {arr.map((item, index) => (
+            <img src={item[x]} alt="watchesnshades" key={index} />
           ))}
         </div>
         <div className="mobile-img">
@@ -115,7 +113,7 @@ export function Images() {
         </div>
         <div className="mobile-img">
           <p className="active-tab">SHADES</p>
-          <img src={s1} />
+          <img src={s1} alt="watch" />
           <div className="see-more-con">
             <p className="see-more">see more</p>
           </div>

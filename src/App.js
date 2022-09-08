@@ -1,5 +1,3 @@
-import { Route, Routes } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import { TopSec } from "./components/TopSec";
 import { ThirdSec } from "./components/ThirdSec";

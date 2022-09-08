@@ -20,7 +20,6 @@ import s9 from "../images/watches/sh9.png";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 
-import styles from "./styles.css";
 let x = 0;
 
 export function ForthSec() {
@@ -28,7 +27,6 @@ export function ForthSec() {
 
   function toggleTab(index) {
     setToggleState(index);
-    console.log(index);
   }
 
   const [arr, setArr] = react.useState([
@@ -56,18 +54,16 @@ export function ForthSec() {
     setArr((prevState) => {
       return [...prevState];
     });
-    console.log(arr[x]);
+
     while (x < arr.length - 1) {
       x++;
     }
   }
-  console.log(x);
 
   function sub() {
     setArr((prevState) => {
       return [...prevState];
     });
-    console.log(arr[x]);
 
     while (x > 0) {
       x--;
@@ -102,12 +98,12 @@ export function ForthSec() {
           <FaAngleLeft className="arrow" onClick={sub}></FaAngleLeft>
         </div>
         <div className="img-arr">
-          {arr.map((item) => (
-            <img src={item[x]} />
+          {arr.map((item, index) => (
+            <img src={item[x]} alt="wathesnshades" key={index} />
           ))}
         </div>
         <div className="mobile-img">
-          <img src={w1} />
+          <img src={w1} alt="shades" />
         </div>
 
         <div>
