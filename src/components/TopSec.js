@@ -23,7 +23,7 @@ export function TopSec() {
         </div>
         <div className="title-con">
           <p className="title">WATCH SHOP</p>
-          <p>LONDON</p>
+          <p>BEE</p>
         </div>
         <div className="icon-con">
           <img src={search} className="icon" alt="icon" />
